@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random User Generator - Beginner Assignment</title>
+    <!-- Google Fonts for modern typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Link to our CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+        <!-- Main card that displays user information -->
+        <article class="card" id="user-card">
+            <div class="profile-img-container">
+                <img src="https://via.placeholder.com/150" alt="Profile Picture" class="profile-img" id="user-img">
+            </div>
+
+            <h1 class="user-name" id="user-name">Loading...</h1>
+            <p class="user-email" id="user-email">Email will appear here</p>
+            <span class="user-country" id="user-country">Country</span>
+
+            <!-- Button to fetch a new user -->
+            <button class="refresh-btn" id="refresh-btn">
+                <span class="spinner"></span>
+                <span class="btn-text">Refresh User</span>
+            </button>
+        </article>
+    </main>
+
+    <!-- Link to our JavaScript file -->
+    <script src="script.js"></script>
+</body>
+
+</html>
